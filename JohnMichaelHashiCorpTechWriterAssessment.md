@@ -1,5 +1,7 @@
 ### The differences between the push, pull, and fetch commands
 
+There are two general differences between each of these three commands: the number of operations (actions) that occur when you run a command, and the direction that data flows when you run a command.
+
 - `git push` - sent changes from a local branch to a remote repo
 - `git fetch` - get changes from a remote repo into your tracking branch
 - `git pull` - will get changes from a remote branch into your tracking branch and merge them into a local branch
