@@ -2,7 +2,7 @@
 
 There are two important differences between each of these three commands: the number of operations (actions) that occur when you run a command, and the direction in which data flows when you run a command.
 
-- `git push` - this command performs a single operation. Running this command uploads (exports) commits from your local repo to a remote repo.
+- `git push` - uploads (exports) commits from your local repo to a remote repo.
 - `git fetch` - this command performs a single operation. Running this command downloads (imports) changes from a remote repo into your local repo. However, these changes are not immediatly committed to your local repo. You have the opportunity to review imported changes before committing them to your local repo.
 - `git pull` - will get changes from a remote branch into your tracking branch and merge them into a local branch
 
